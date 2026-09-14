@@ -23,6 +23,7 @@ Our group implemented three distinct algorithms to find the Minimum Spanning Tre
 * Python 3.x installed on your system.
 * A terminal or command-line interface.
 * No external libraries are required (only Python standard libraries).
+* Install IDE you prefer and run on it.
 
 ---
 
