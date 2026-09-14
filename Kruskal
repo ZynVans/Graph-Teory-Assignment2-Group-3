@@ -1,6 +1,6 @@
 # Kruskal's Algorithm
 # Graph Theory - ITS
-# Group: [YOUR GROUP]
+# Group: 3
 
 # List of vertices
 vertices = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
