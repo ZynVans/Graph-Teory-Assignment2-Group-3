@@ -1,0 +1,98 @@
+# Kruskal's Algorithm
+# Graph Theory - ITS
+# Group: [YOUR GROUP]
+
+# List of vertices
+vertices = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+
+# List of edges: (vertex1, vertex2, weight)
+edges = [
+    ('A', 'G', 5),
+    ('A', 'C', 6),
+    ('A', 'B', 7),
+    ('A', 'F', 10),
+    ('G', 'F', 6),
+    ('C', 'B', 5),
+    ('C', 'E', 7),
+    ('C', 'F', 9),
+    ('B', 'E', 9),
+    ('B', 'D', 7),
+    ('E', 'F', 5),
+    ('E', 'D', 5)
+]
+
+
+# Find the root/representative of a vertex
+def find(parent, vertex):
+    if parent[vertex] != vertex:
+        parent[vertex] = find(parent, parent[vertex])
+
+    return parent[vertex]
+
+
+# Combine two components
+def union(parent, rank, u, v):
+    root_u = find(parent, u)
+    root_v = find(parent, v)
+
+    if root_u == root_v:
+        return False
+
+    if rank[root_u] < rank[root_v]:
+        parent[root_u] = root_v
+
+    elif rank[root_u] > rank[root_v]:
+        parent[root_v] = root_u
+
+    else:
+        parent[root_v] = root_u
+        rank[root_u] += 1
+
+    return True
+
+
+# Kruskal's Algorithm
+def kruskal(vertices, edges):
+
+    # Sort edges based on their weight
+    edges = sorted(edges, key=lambda edge: edge[2])
+
+    # Initially, every vertex is its own component
+    parent = {}
+    rank = {}
+
+    for vertex in vertices:
+        parent[vertex] = vertex
+        rank[vertex] = 0
+
+    mst = []
+    total_cost = 0
+
+    # Process edges from smallest to largest
+    for u, v, weight in edges:
+
+        # Add edge only if it does not create a cycle
+        if union(parent, rank, u, v):
+
+            mst.append((u, v, weight))
+            total_cost += weight
+
+            print(f"Add edge: {u}-{v}, weight = {weight}")
+
+            # MST for n vertices contains n-1 edges
+            if len(mst) == len(vertices) - 1:
+                break
+
+    return mst, total_cost
+
+
+# Run the algorithm
+mst, total_cost = kruskal(vertices, edges)
+
+
+# Display final result
+print("\nMinimum Spanning Tree:")
+for u, v, weight in mst:
+    print(f"{u} - {v} : {weight}")
+
+print(f"\nTotal MST Cost: {total_cost}")
