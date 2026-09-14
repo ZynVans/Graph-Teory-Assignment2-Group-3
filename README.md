@@ -15,8 +15,7 @@ Our group implemented three distinct algorithms to find the Minimum Spanning Tre
 
 * **Prim's Algorithm:** A greedy algorithm that builds the MST one vertex at a time. It maintains a set of visited vertices and repeatedly selects the lowest-weight edge that connects a visited node to an unvisited node until all active nodes are connected.
 * **Kruskal's Algorithm:** A greedy algorithm that sorts all edges by weight in ascending order. It iterates through the sorted edges and adds them to the MST, using a Disjoint Set (Union-Find) data structure to ensure no cycles are formed.
-* **Borůvka's Algorithm:** A component-based algorithm that initializes each node as its own distinct tree. In each phase, it simultaneously finds the minimum-weight edge connecting each tree to another, merging them until only a single spanning tree remains.
-
+* **... Algorithm:** (Explanation about the algorithm)
 ---
 
 ## 3. Prerequisites to Run the Code
