@@ -35,3 +35,6 @@ You can run the Python scripts directly from your terminal.
 * Kruskal Algorithm Result
 <img width="322" height="400" alt="image" src="https://github.com/user-attachments/assets/64879a10-b5f1-47f6-8e8f-2f20c99d1d54" />
 
+* Prim Algorithm Result
+<img width="658" height="153" alt="image" src="https://github.com/user-attachments/assets/61bf19e9-5178-4847-8df2-276add8451fd" />
+
