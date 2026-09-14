@@ -1,7 +1,7 @@
 # Graph Theory - Minimum Spanning Tree (MST) Group Homework
 
 ## 1. Identity
-**Informatics ITS Graph Theory class Group [Your Group Number]**
+**Informatics ITS Graph Theory class Group 3**
 
 * Dzulfiqar Rafi'ussunnah - 5025251011
 * Padhang Abiyu Fikri - 5025251014
@@ -28,3 +28,7 @@ Our group implemented three distinct algorithms to find the Minimum Spanning Tre
 
 ## 4. Instructions to Run the Code
 You can run the Python scripts directly from your terminal.
+
+---
+
+## 4. Result of Sample Run
