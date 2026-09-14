@@ -3,10 +3,10 @@
 ## 1. Identity
 **Informatics ITS Graph Theory class Group [Your Group Number]**
 
-* [Member 1 Name] - [NRP/Student ID]
-* [Member 2 Name] - [NRP/Student ID]
-* [Member 3 Name] - [NRP/Student ID]
-* [Member 4 Name] - [NRP/Student ID]
+* Dzulfiqar Rafi'ussunnah - 5025251011
+* Padhang Abiyu Fikri - 5025251014
+* Aditya Lingga Mardika - 5025251158
+* Muhammad Faris Alfarrel - 5025251002
 
 ---
 
@@ -20,41 +20,11 @@ Our group implemented three distinct algorithms to find the Minimum Spanning Tre
 ---
 
 ## 3. Prerequisites to Run the Code
-* A standard C compiler (e.g., `gcc`).
-* Standard C libraries: `<stdio.h>`, `<stdlib.h>`, `<stdbool.h>`, `<limits.h>`.
+* Python 3.x installed on your system.
 * A terminal or command-line interface.
+* No external libraries are required (only Python standard libraries).
 
 ---
 
 ## 4. Instructions to Run the Code
-You can quickly compile and run the source files directly from your terminal.
-
-### Option A: Manual Compilation
-1. Open your terminal and navigate to the project directory.
-2. Compile the files using `gcc`:
-   * `gcc prim.c -o prim`
-   * `gcc kruskal.c -o kruskal`
-   * `gcc boruvka.c -o boruvka`
-3. Execute the compiled binaries:
-   * `./prim`
-   * `./kruskal`
-   * `./boruvka`
-
-### Option B: Automated Execution
-To streamline the process, you can create a quick `run.sh` script in your project root:
-
-```bash
-#!/bin/bash
-echo "Compiling..."
-gcc prim.c -o prim
-gcc kruskal.c -o kruskal
-gcc boruvka.c -o boruvka
-
-echo "--- Running Prim's ---"
-./prim
-
-echo "--- Running Kruskal's ---"
-./kruskal
-
-echo "--- Running Boruvka's ---"
-./boruvka
+You can run the Python scripts directly from your terminal.
