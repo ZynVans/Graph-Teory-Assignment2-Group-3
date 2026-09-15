@@ -36,7 +36,7 @@ You can run the Python scripts directly from your terminal.
 <img width="322" height="400" alt="image" src="https://github.com/user-attachments/assets/64879a10-b5f1-47f6-8e8f-2f20c99d1d54" />
 
 * Prim Algorithm Result
-<img width="658" height="153" alt="image" src="https://github.com/user-attachments/assets/61bf19e9-5178-4847-8df2-276add8451fd" />
+<img width="648" height="174" alt="image" src="https://github.com/user-attachments/assets/055e82f2-d3d5-4937-8b98-3061b4614575" />
 
 * Borůvka’s Algorithm Result
 <img width="961" height="180" alt="WhatsApp Image 2026-09-14 at 23 52 13" src="https://github.com/user-attachments/assets/310d32f0-9967-4f0c-bea5-1c648d49fa6a" />
@@ -47,7 +47,7 @@ You can run the Python scripts directly from your terminal.
 <img width="414" height="144" alt="image" src="https://github.com/user-attachments/assets/513fdaf0-bb94-4630-bdf3-9c7b072342a5" />
 
 * Prim
-<img width="648" height="174" alt="image" src="https://github.com/user-attachments/assets/b549469b-2035-4beb-8d04-60cb5c47fc66" />
+<img width="313" height="173" alt="image" src="https://github.com/user-attachments/assets/32a69c02-7563-46be-9c23-44b7589a0609" />
 
 * Kruskal
 <img width="237" height="182" alt="image" src="https://github.com/user-attachments/assets/2c9937d1-ec7f-4661-8072-878d1f2ccd53" />
