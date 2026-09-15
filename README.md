@@ -42,7 +42,7 @@ You can run the Python scripts directly from your terminal.
 <img width="961" height="180" alt="WhatsApp Image 2026-09-14 at 23 52 13" src="https://github.com/user-attachments/assets/310d32f0-9967-4f0c-bea5-1c648d49fa6a" />
 
 
-## 5. Result of Node/Edge Failure Simulation (A-G)
+## 6. Result of Node/Edge Failure Simulation (A-G)
 * Borůvka
 <img width="414" height="144" alt="image" src="https://github.com/user-attachments/assets/513fdaf0-bb94-4630-bdf3-9c7b072342a5" />
 
