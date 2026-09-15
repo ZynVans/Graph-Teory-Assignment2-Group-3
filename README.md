@@ -47,7 +47,7 @@ You can run the Python scripts directly from your terminal.
 <img width="414" height="144" alt="image" src="https://github.com/user-attachments/assets/513fdaf0-bb94-4630-bdf3-9c7b072342a5" />
 
 * Prim
-<img width="313" height="180" alt="image" src="https://github.com/user-attachments/assets/a61fa85b-5d16-4b68-b481-42ee168e1df0" />
+<img width="648" height="174" alt="image" src="https://github.com/user-attachments/assets/b549469b-2035-4beb-8d04-60cb5c47fc66" />
 
 * Kruskal
 <img width="237" height="182" alt="image" src="https://github.com/user-attachments/assets/2c9937d1-ec7f-4661-8072-878d1f2ccd53" />
